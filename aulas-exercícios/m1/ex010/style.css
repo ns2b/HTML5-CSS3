@@ -1,0 +1,38 @@
+*{
+    font-family:'Franklin Gothic Medium';
+    color:#fff;
+    
+
+    
+}
+
+body {
+    background-color: #000000;
+}
+
+
+
+
+
+.ela {
+    color: #ff69b4;
+    text-shadow: 0px 0px 8px #d504ff ;
+}
+
+.guanabara {
+    color: #d2691e;
+    text-shadow: 0px 0px 3px #662b01 ;
+}
+
+.emojipedia, .emojiterra {
+    color: #f5b506;
+    text-shadow: 0px 0px px #015c01;
+}
+
+.unsplash, .pexels {
+    color: #008b8b;
+}
+
+.iana {
+    color: red;
+}

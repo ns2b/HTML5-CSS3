@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="./images/favicons/catsit.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .d1 {
+            width: 400px;
+            height: 300px;
+            background-color: rgb(199, 140, 255);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #d1, #d2, #d3  {
+            display: inline-block;
+            background-color: cornflowerblue;
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            transition: all ease-in 0.2s;
+        }
+
+        #d1:hover, #d2:hover, #d3:hover {
+            background-image: linear-gradient(to bottom left, rgb(117, 80, 0), rgb(131, 0, 26), rgb(16, 79, 196));
+            height: 120px;
+            width: 120px;
+       }
+
+       body {
+            background-color: rgb(58, 57, 57);
+            display: flex;
+            justify-content: center;
+
+       }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <div id="d1">01</div>
+        <div id="d2">02</div>
+        <a href="./hover.html"><div id="d3">03</div></a>
+    </div>
+</body>
+</html>

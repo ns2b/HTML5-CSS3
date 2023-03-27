@@ -1,0 +1,33 @@
+body {
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.sub2 {
+    text-align: right;
+}
+
+.sub3 {
+    text-align: left;
+}
+
+.sub4 {
+    text-align: right;
+}
+
+.sub5 {
+    text-align: left;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    font-size: 1em;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.h1a {
+    color: goldenrod;
+    font-size: 1.8em;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px rgb(44, 34, 1);
+}
+
+.h1b {
+    color: black;
+    text-shadow: 0px 0px 3px rgb(216, 157, 7);
+    font-size: 1.8em;
+}
+
+.h1c {
+    color: black;
+    text-shadow: 0px 0px 3px rgb(216, 157, 7);
+    font-size: 1.8em;
+}
+
+.básicohtml, .básicocss {
+    color: seagreen ;
+    text-shadow: 3px 3px 5px rgb(44, 34, 1);
+    font-size: 1.3em;
+}
+
+.intermediáriohtml, .intermediáriocss {
+    color: dodgerblue;
+    text-shadow: 3px 3px 5px rgb(44, 34, 1);
+    font-size: 1.3em;
+}
+
+.avançadohtml, .avançadocss {
+    color: crimson;
+    text-shadow: 3px 3px 5px rgb(44, 34, 1);
+    font-size: 1.3em;
+}
+
+.p1, .p2 {
+    text-align: justify;
+    color: white;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+
+.div1, .div2 {
+    background-image: linear-gradient(to bottom right, rgb(107, 102, 102), rgb(19, 18, 18));
+    border-radius: 10px;
+    padding: 1px 30px;
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(136, 98, 2, 0.63);
+    width: 645px;
+    margin: auto
+}
+ 
+.divesp {
+    border-radius: 10px;
+    width: 710px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(233, 114, 114), rgb(221, 99, 221));
+}
+    
