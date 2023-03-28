@@ -10,8 +10,10 @@ body {
 }
 
 main {
+    width: 1400px;
     border: 2px solid rgb(166, 255, 0);
-    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
     background-color: red;
     background-image: url(images/pattern001.png);
 }
