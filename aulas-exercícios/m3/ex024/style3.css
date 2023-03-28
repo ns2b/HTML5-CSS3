@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    border: 2px solid rgb(166, 255, 0);
+    margin: 20px;
+    background-color: red;
+    background-image: url(images/pattern001.png);
+}
+
+div.bloco {
+    background-image: url(images/wallpaper002.jpg);
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: right bottom;
+}
+
+div#q4 {
+    background-position: center center;
+}
+
