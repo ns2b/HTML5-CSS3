@@ -10,16 +10,29 @@ body {
     background-color: rgb(255, 255, 255);
     background-image: url(images/wallpaper002.jpg);
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Shorthand - Background
+    color > caminho-imagem > position > repeat > [size=defeito-usar código avulso] > attachment */
+
+    background: rgb(255, 255, 255) url(images/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid rgb(255, 0, 0);
+}
+
+footer {
+    background-color: darkorange;
+    text-align: center;
 }
