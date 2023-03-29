@@ -1,0 +1,21 @@
+{
+  "prettier.bracketSameLine": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "auto",
+  "prettier.proseWrap": "preserve",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.quoteProps": "as-needed",
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.jsxSingleQuote": false,
+  "prettier.useTabs": false,
+  "editor.formatOnSave": true,
+  "prettier.singleAttributePerLine": false,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.autoSave": "afterDelay"
+}
