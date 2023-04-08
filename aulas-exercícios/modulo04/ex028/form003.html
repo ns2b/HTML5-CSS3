@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários 3</title>
+    <link rel="shortcut icon" href="icons/bolinha.png" type="image/x-icon" />
+  </head>
+
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+
+  <body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+      <p>
+        <label for="inome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          id="inome"
+          required
+          maxlength="30"
+          placeholder="Nome completo"
+          autocomplete="name" />
+      </p>
+
+<p>label</p>
+    
+      <p>
+        <input type="submit" value="Send" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>
